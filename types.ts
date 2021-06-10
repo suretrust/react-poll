@@ -12,3 +12,10 @@ export type QandA = {
 export type QandAsDocument = {
   questions: QandA[];
 };
+export type SingleAnswerProps = {
+  hasMaximumVotes?: boolean;
+  percentage?: string;
+};
+export type SinglePollAnswerProps = {
+  showPollResult?: boolean;
+};
